@@ -1,0 +1,68 @@
+h1 {
+    color: blueviolet;
+    background-color: rgb(27, 4, 48);
+}
+
+a {
+text-align: center;
+background-color: blue;
+color: aqua;
+text-decoration: none;
+padding: 8px;
+margin: 12px;
+transition: all 0.3s ease;
+}
+
+a:hover {
+    background-color: purple;
+    color:blue;
+}
+
+#grande-image {
+   margin: 12px;
+   height: 500px;
+   width: 400px;
+   border-radius: 12px;
+   box-shadow: 0px 10px 12px; 
+}
+
+h1, h2, h3  {
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+
+div {
+    border: solid 10px rgb(255, 0, 166);
+    width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    /* display: flex;
+    flex-direction:columns;
+    justify-content: center; */
+    border-radius: 12px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.9);
+}
+
+.image-circle {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+#titre-photo {
+    padding: 20px;
+    box-shadow: none;
+    margin: 0 auto;
+    width: 80%;
+}
+
+img {
+
+    object-fit: cover;
+}
+
+body    {
+    background: content-box radial-gradient(crimson,skyblue);
+    background-repeat: no-repeat;
+}
